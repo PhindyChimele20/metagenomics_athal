@@ -3,6 +3,6 @@ doi: 10.3389/fmicb.2025.1550346
 data_source: " BioProject: PRJNA1200918"
 domain: metagenomics
 ref_genome: S. islandicus REY15A genome (RefSeq accession number: NC_017276)
-tools: [bowtie2-2.4.1, samtools-1.18, subread-2.0.8, featureCounts 2.0.4, edgeR]
-estimated_runtime_minutes: 170
-estimated_time_for_human: 210
+tools: [Trimmomatic v0.36, FastQC v0.11.9, MEGAHIT v1.1.2, Prodigal v2.6.3, CD-HIT v4.8.1, MetaWRAP v1.2.1, QUAST v5.0.2]
+estimated_runtime_minutes: 250
+estimated_time_for_human: 350
